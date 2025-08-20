@@ -8,7 +8,7 @@ void main() async{
   WidgetsFlutterBinding.ensureInitialized();
     await Firebase.initializeApp(
       options: FirebaseOptions(
-          apiKey:'AIzaSyAYvl3DID2gWzp79w7XlZ6HB_YAeig3LNE',
+          
           appId: '1:1074730843722:android:5b8550f2b42ecc1a0530b3',
           messagingSenderId: '1074730843722',
           projectId: 'sharebook-app-632f8')
@@ -28,3 +28,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
